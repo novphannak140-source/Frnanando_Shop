@@ -1,3 +1,5 @@
+// ignore_for_file: curly_braces_in_flow_control_structures
+
 import 'package:dart_frog/dart_frog.dart';
 import 'package:franando_shop_api/repositories/jwt_helper.dart';
 import 'package:franando_shop_api/repositories/response_helper.dart';
@@ -15,20 +17,23 @@ AuthUser? authenticate(RequestContext context) {
   if (header == null || !header.startsWith('Bearer ')) return null;
   final payload = verifyToken(header.substring(7).trim());
   if (payload == null) return null;
-  return AuthUser(payload['sub'] as String, (payload['role'] as String?) ?? 'user');
+  return AuthUser(
+      payload['sub'] as String, (payload['role'] as String?) ?? 'user');
 }
 
 /// Folder-level middleware: requires a valid token and provides [AuthUser].
 Middleware requireAuth() => (handler) => (context) async {
       final user = authenticate(context);
-      if (user == null) return fail('Unauthorized: missing or invalid token', status: 401);
+      if (user == null)
+        return fail('Unauthorized: missing or invalid token', status: 401);
       return handler(context.provide<AuthUser>(() => user));
     };
 
 /// For handlers: returns an error [Response] unless the caller is an admin.
 Response? adminGuard(RequestContext context) {
   final user = authenticate(context);
-  if (user == null) return fail('Unauthorized: missing or invalid token', status: 401);
+  if (user == null)
+    return fail('Unauthorized: missing or invalid token', status: 401);
   if (!user.isAdmin) return fail('Forbidden: admin only', status: 403);
   return null;
 }
