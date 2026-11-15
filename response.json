@@ -1,0 +1,14 @@
+{
+    "success": true,
+    "data": {
+        "paymentId": "6af9aaf1f23bd9ba9acf2140",
+        "qr": "00020101021229190015sros_doeun@bkrt52045999530384054040.095802KH5913Franando Shop6010Phnom Penh62190115FR17947471153289934001317947471212070113179474772120563045715",
+        "md5": "B0366097B0C2672C03DDD87665F7C879",
+        "amount": 0.09,
+        "currency": "USD",
+        "expiresAt": "2026-11-15T13:02:01.205035Z",
+        "expiresInSeconds": 600,
+        "status": "pending",
+        "checkPaymentUrl": "/payments/bakong-qr?md5=B0366097B0C2672C03DDD87665F7C879"
+    }
+}

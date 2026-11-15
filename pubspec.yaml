@@ -1,0 +1,20 @@
+name: franando_shop_api
+description: Franando Shop REST API built with Dart Frog + MongoDB
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  crypto: ^3.0.3
+  dart_frog: ^1.1.0
+  dart_jsonwebtoken: ^2.14.0
+  dotenv: ^4.2.0
+  http: ^1.2.0
+  khqr_generator: ^0.0.8
+  mongo_dart: ^0.10.3
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.25.0

@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Sok Dara",
+    "email": "dara@example.com",
+    "password": "123456",
+    "phone": "012345678"
+  },
+  {
+    "name": "Sok Dara",
+    "email": "dara.sok@example.com",
+    "password": "password123",
+    "phone": "012345678"
+  },
+  {
+    "name": "Chan Vicheka",
+    "email": "vicheka.chan@example.com",
+    "password": "password123",
+    "phone": "012345679"
+  },
+  {
+    "name": "Kim Sovan",
+    "email": "sovan.kim@example.com",
+    "password": "password123",
+    "phone": "012345680"
+  },
+  {
+    "name": "Heng Srey Neang",
+    "email": "sreyneang.heng@example.com",
+    "password": "password123",
+    "phone": "012345681"
+  },
+  {
+    "name": "Vutha Piseth",
+    "email": "piseth.vutha@example.com",
+    "password": "password123",
+    "phone": "012345682"
+  },
+  {
+    "name": "Chea Rithy",
+    "email": "rithy.chea@example.com",
+    "password": "password123",
+    "phone": "012345683"
+  },
+  {
+    "name": "Sophea Mesa",
+    "email": "mesa.sophea@example.com",
+    "password": "password123",
+    "phone": "012345684"
+  },
+  {
+    "name": "Lim Keo",
+    "email": "keo.lim@example.com",
+    "password": "password123",
+    "phone": "012345685"
+  },
+  {
+    "name": "Panha Ratanak",
+    "email": "ratanak.panha@example.com",
+    "password": "password123",
+    "phone": "012345686"
+  },
+  {
+    "name": "Srey Pov",
+    "email": "sreypov@example.com",
+    "password": "password123",
+    "phone": "012345687"
+  },
+  {
+    "name": "Noun Channary",
+    "email": "channary.noun@example.com",
+    "password": "password123",
+    "phone": "012345688"
+  },
+  {
+    "name": "Rothana Borey",
+    "email": "borey.rothana@example.com",
+    "password": "password123",
+    "phone": "012345689"
+  },
+  {
+    "name": "Kalyan Tep",
+    "email": "kalyan.tep@example.com",
+    "password": "password123",
+    "phone": "012345690"
+  },
+  {
+    "name": "Sothea Meng",
+    "email": "sothea.meng@example.com",
+    "password": "password123",
+    "phone": "012345691"
+  },
+  {
+    "name": "Bopha Thorn",
+    "email": "bopha.thorn@example.com",
+    "password": "password123",
+    "phone": "012345692"
+  },
+  {
+    "name": "Visal Sokha",
+    "email": "visal.sokha@example.com",
+    "password": "password123",
+    "phone": "012345693"
+  },
+  {
+    "name": "Nary Oum",
+    "email": "nary.oum@example.com",
+    "password": "password123",
+    "phone": "012345694"
+  },
+  {
+    "name": "Chantha Yon",
+    "email": "chantha.yon@example.com",
+    "password": "password123",
+    "phone": "012345695"
+  },
+  {
+    "name": "Dany Sim",
+    "email": "dany.sim@example.com",
+    "password": "password123",
+    "phone": "012345696"
+  },
+  {
+    "name": "Sovannary Touch",
+    "email": "sovannary.touch@example.com",
+    "password": "password123",
+    "phone": "012345697"
+  }
+]
