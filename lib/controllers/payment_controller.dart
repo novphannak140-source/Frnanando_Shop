@@ -274,7 +274,7 @@ class PaymentController {
         'method': 'paypal',
         'paypalOrderId': paypalOrderId,
         'amount': paid,
-        'status': 'successfully', // <--- ដូរជា successfully
+        'status': 'successfully', // 
         'createdAt': DateTime.now().toUtc(),
       });
       await _markPaid(order['_id'] as ObjectId);
