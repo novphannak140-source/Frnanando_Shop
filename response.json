@@ -1,14 +1,14 @@
 {
     "success": true,
     "data": {
-        "paymentId": "6afd6913cc1bc9a12bc3ca87",
-        "qr": "00020101021229190015sros_doeun@bkrt52045999530384054040.095802KH5913Franando Shop6010Phnom Penh62190115FR1794992397679993400131794992403562011317949930035626304B8CE",
-        "md5": "293DE7E3525AD48D75402A211D25FBB8",
+        "paymentId": "6afd6ac0cc1bc9a12bc3ca8c",
+        "qr": "00020101021229190015sros_doeun@bkrt52045999530384054040.095802KH5913Franando Shop6010Phnom Penh62190115FR1794992826845993400131794992832243011317949934322436304DCFD",
+        "md5": "FF703872FE87D49DB0FA849AB7391A92",
         "amount": 0.09,
         "currency": "USD",
-        "expiresAt": "2026-11-18T09:10:03.562468Z",
+        "expiresAt": "2026-11-18T09:17:12.243076Z",
         "expiresInSeconds": 600,
         "status": "pending",
-        "checkPaymentUrl": "/payments/bakong-qr?md5=293DE7E3525AD48D75402A211D25FBB8"
+        "checkPaymentUrl": "/payments/bakong-qr?md5=FF703872FE87D49DB0FA849AB7391A92"
     }
 }
